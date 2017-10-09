@@ -16,6 +16,7 @@
 		B34575631F8AFFCC00B6B366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34575611F8AFFCC00B6B366 /* LaunchScreen.storyboard */; };
 		B345756E1F8AFFCC00B6B366 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345756D1F8AFFCC00B6B366 /* WeatherAppTests.swift */; };
 		B34575791F8AFFCC00B6B366 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34575781F8AFFCC00B6B366 /* WeatherAppUITests.swift */; };
+		B34575871F8B05F700B6B366 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34575861F8B05F700B6B366 /* WebViewController.swift */; };
 		DD64CF5C8F1B6554D59CCCAD /* Pods_WeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F93EF57A99CF83B5C276D3C /* Pods_WeatherAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		B34575741F8AFFCC00B6B366 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34575781F8AFFCC00B6B366 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		B345757A1F8AFFCC00B6B366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34575861F8B05F700B6B366 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F08B523B43706CF896EECA79 /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F67F1BB70B6C976164C99500 /* Pods-WeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherAppUITests/Pods-WeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 			children = (
 				B34575581F8AFFCC00B6B366 /* AppDelegate.swift */,
 				B345755A1F8AFFCC00B6B366 /* ViewController.swift */,
+				B34575861F8B05F700B6B366 /* WebViewController.swift */,
 				B345755C1F8AFFCC00B6B366 /* Main.storyboard */,
 				B345755F1F8AFFCC00B6B366 /* Assets.xcassets */,
 				B34575611F8AFFCC00B6B366 /* LaunchScreen.storyboard */,
@@ -459,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B345755B1F8AFFCC00B6B366 /* ViewController.swift in Sources */,
+				B34575871F8B05F700B6B366 /* WebViewController.swift in Sources */,
 				B34575591F8AFFCC00B6B366 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
